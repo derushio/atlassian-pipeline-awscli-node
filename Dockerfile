@@ -25,6 +25,3 @@ RUN set -ex; \
 
 WORKDIR /root
 VOLUME /root/.aws
-
-ENTRYPOINT [ "aws" ]
-CMD ["--version"]
